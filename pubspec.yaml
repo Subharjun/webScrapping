@@ -1,0 +1,35 @@
+
+
+
+name: village_gentle
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you plan to publish the package
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_inappwebview: ^6.0.0 # ✅ Replaces webview_flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/village_gentle_logo.jpg
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/village_gentle_logo.jpg"
